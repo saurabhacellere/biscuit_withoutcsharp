@@ -1,0 +1,25 @@
+{
+	"gammaAccess": {
+		"url": "http://192.168.2.114:3000",
+		"userName": "centos@mygamma.io",
+		"password": "admin1234"
+	},
+	"repositories": [{
+		"repository": {
+			"uid": "38e123544b508162f72815fc03897711",
+			"projectName": "TeamCity_Plugin",
+			"sources": {
+				"baseDir": "$WORKSPACE"
+			}
+		},
+		"dataDir": "$GAMMA_DATA",
+		"modules": {
+			"codeissues": [
+					{
+						"name": "cppcheck"
+					}, {
+						"name": "gamma_cxx"
+					}]
+		}
+	}]
+}

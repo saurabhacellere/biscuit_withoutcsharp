@@ -1,0 +1,31 @@
+# Format documented here
+# http://www.mkdocs.org/user-guide/configuration/
+
+site_name: utPLSQL
+site_description: utPLSQL Ultimate Unit Testing Framework for Oracle PL/SQL
+copyright: Copyright &copy; 2016 - 2018 utPLSQL Team
+repo_url: https://github.com/utPLSQL/utPLSQL
+theme: mkdocs
+use_directory_urls: false
+strict: true
+
+nav:
+  - Home: index.md
+  - User Guide:
+       - Installation: userguide/install.md
+       - Getting Started: userguide/getting-started.md
+       - Annotations: userguide/annotations.md
+       - Expectations: userguide/expectations.md
+       - Advanced data comparison: userguide/advanced_data_comparison.md
+       - Running unit tests: userguide/running-unit-tests.md
+       - Testing best pracitces: userguide/best-practices.md
+       - Upgrade utPLSQL: userguide/upgrade.md
+  - Reporting:
+       - Using reporters: userguide/reporters.md
+       - Reporting errors: userguide/exception-reporting.md
+       - Code coverage: userguide/coverage.md
+  - About:
+       - Project Details: about/project-details.md
+       - License: about/license.md
+       - Support: about/support.md
+       - Authors: about/authors.md

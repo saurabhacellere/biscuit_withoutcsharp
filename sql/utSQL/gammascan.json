@@ -1,0 +1,23 @@
+{
+	"gammaAccess": {
+		"url": "http://192.168.2.236:3000",
+		"userName": "chandrashekhar.bhosale@acellere.com",
+		"password": "admin1234"
+	},
+	"repositories": [{
+		"repository": {
+			"uid": "f9cd2fd93f67b5cf4679841820178ca7",
+			"projectName": "LTC_UtPLSQL_SQL",
+			"sources": {
+				"baseDir": "$WORKSPACE"
+			}
+		},
+		"dataDir": "$GAMMA_DATA",
+		"modules": {
+			"codeissues": [
+					{
+						"name": "sqlcheck"
+					}]
+		}
+	}]
+}
