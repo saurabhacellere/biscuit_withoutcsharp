@@ -42,10 +42,8 @@ driver.sleep(2000).then(function() {
   driver.getTitle().then(function(title) {
     if(title === 'webdriver - Google Search') {
       console.log('Test passed');
-      request({uri: "https://chrismills4:DoDmjvSzK5eLSmAtVwi4@www.browserstack.com/automate/sessions/" + sessionId + ".json", method:"PUT", form:{"status":"passed","reason":"Google results showed correct title"}});
     } else {
       console.log('Test failed');
-      request({uri: "https://chrismills4:DoDmjvSzK5eLSmAtVwi4@www.browserstack.com/automate/sessions/" + sessionId + ".json", method:"PUT", form:{"status":"failed","reason":"Google results showed wrong title"}});
     }
   });
 });
