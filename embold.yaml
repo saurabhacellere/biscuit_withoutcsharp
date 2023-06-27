@@ -3,7 +3,7 @@ version: 1
 sources:
   #Files or Directories to be Excluded are mentioned in exclusions
   exclusions:
-    - 'test'
+    - 'test | src'
     - 'generated'
     - 'mock'
     - 'thirdparty'
